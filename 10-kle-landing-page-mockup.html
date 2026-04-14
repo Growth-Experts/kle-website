@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KLE Landing Page Mockup</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --kle-red: #b2292d;
+      --kle-grape: #1d1b23;
+      --kle-champagne: #e9db9c;
+      --kle-white: #ffffff;
+      --kle-black: #222222;
+      --kle-emerald: #12d983;
+      --kle-sky: #0982c8;
+      --kle-royal: #2f3061;
+      --maxw: 1140px;
+      --radius: 14px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Barlow", Arial, sans-serif;
+      color: var(--kle-black);
+      background: #fafafa;
+      line-height: 1.45;
+    }
+    .container { width: min(var(--maxw), 92%); margin: 0 auto; }
+    .btn {
+      display: inline-block;
+      padding: 14px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 700;
+      transition: .2s ease;
+    }
+    .btn-primary { background: var(--kle-red); color: var(--kle-white); }
+    .btn-secondary { color: var(--kle-champagne); border: 1px solid rgba(233,219,156,.5); }
+    .btn:hover { transform: translateY(-1px); }
+    header {
+      position: sticky; top: 0; z-index: 20;
+      background: rgba(29,27,35,.95);
+      border-bottom: 1px solid rgba(255,255,255,.1);
+      backdrop-filter: blur(6px);
+    }
+    .nav {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 14px 0;
+    }
+    .logo { color: var(--kle-white); font-weight: 800; letter-spacing: .3px; }
+    .hero {
+      background: linear-gradient(135deg, var(--kle-grape), var(--kle-royal));
+      color: var(--kle-white);
+      padding: 90px 0 70px;
+    }
+    .hero-grid {
+      display: grid; gap: 34px;
+      grid-template-columns: 1.1fr .9fr;
+      align-items: center;
+    }
+    .eyebrow {
+      color: var(--kle-champagne);
+      font-size: .9rem;
+      letter-spacing: .5px;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    h1 {
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      line-height: 1.05;
+      margin: 14px 0 18px;
+      font-weight: 800;
+      max-width: 18ch;
+    }
+    .hero p { font-size: 1.1rem; max-width: 56ch; opacity: .95; }
+    .cta-row { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 20px; }
+    .hero-art {
+      min-height: 340px;
+      border-radius: var(--radius);
+      background: linear-gradient(180deg, rgba(233,219,156,.18), rgba(255,255,255,.04));
+      border: 1px solid rgba(255,255,255,.2);
+      display: flex; align-items: center; justify-content: center;
+      text-align: center; padding: 24px;
+    }
+    .hero-art span { max-width: 28ch; font-weight: 600; color: #f7f7f7; }
+    section { padding: 72px 0; }
+    h2 { font-size: clamp(1.5rem, 3vw, 2.2rem); margin: 0 0 14px; }
+    .kpis {
+      display: grid; gap: 14px;
+      grid-template-columns: repeat(3, 1fr);
+      margin-top: 20px;
+    }
+    .card {
+      background: var(--kle-white);
+      border: 1px solid #e7e7e7;
+      border-radius: var(--radius);
+      padding: 18px;
+    }
+    .kpi-value { font-size: 2rem; font-weight: 800; color: var(--kle-red); }
+    .pain { background: #f7f4e6; }
+    .bullets { margin: 16px 0; padding-left: 18px; }
+    .bullets li { margin: 8px 0; }
+    .services {
+      background: var(--kle-grape);
+      color: var(--kle-white);
+    }
+    .services-grid {
+      display: grid; gap: 14px;
+      grid-template-columns: repeat(3, 1fr);
+      margin-top: 22px;
+    }
+    .services .card { border: 0; }
+    .services .card h3 { margin-top: 0; color: var(--kle-grape); }
+    .results-grid {
+      display: grid; gap: 16px;
+      grid-template-columns: 1fr 1fr;
+    }
+    .quote { font-style: italic; margin: 0 0 10px; }
+    .contact {
+      background: linear-gradient(120deg, var(--kle-grape), var(--kle-royal));
+      color: var(--kle-white);
+      border-top: 4px solid var(--kle-red);
+    }
+    .contact-grid {
+      display: grid; gap: 18px;
+      grid-template-columns: 1fr 1fr;
+      align-items: start;
+    }
+    .form-mock {
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.2);
+      border-radius: var(--radius);
+      padding: 16px;
+    }
+    .field {
+      display: block;
+      background: rgba(255,255,255,.95);
+      color: #333;
+      border-radius: 8px;
+      padding: 10px 12px;
+      margin: 8px 0;
+      font-size: .95rem;
+    }
+    footer {
+      background: #111;
+      color: #ddd;
+      padding: 24px 0;
+      font-size: .9rem;
+    }
+    @media (max-width: 920px) {
+      .hero-grid, .results-grid, .contact-grid { grid-template-columns: 1fr; }
+      .kpis, .services-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="logo">Kothari Leadership</div>
+      <a class="btn btn-primary" href="#contact">Book Your Free 30-Minute Consultation</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="eyebrow">Executive Coaching + Fractional C-Suite Support</div>
+        <h1>Your team is busy. Execution is still breaking down.</h1>
+        <p>
+          When priorities conflict, decisions stall, and everything routes through you, growth slows.
+          Kothari Leadership helps CEOs and leadership teams restore alignment and turn strategy into execution.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#contact">Book Your Free 30-Minute Consultation</a>
+          <a class="btn btn-secondary" href="#">Take the 9Lens Alignment Test</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <span>Place outcome-focused leadership image here (real coaching/facilitation context).</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Trusted by leaders navigating growth pressure</h2>
+      <div class="kpis">
+        <div class="card"><div class="kpi-value">125+</div><div>CEOs coached since 2008</div></div>
+        <div class="card"><div class="kpi-value">15+</div><div>Companies exited or sold</div></div>
+        <div class="card"><div class="kpi-value">15%-30%</div><div>Annual enterprise value increase</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pain">
+    <div class="container">
+      <h2>Is this what growth looks like right now?</h2>
+      <ul class="bullets">
+        <li>Your leadership meetings are full, but key decisions keep getting revisited.</li>
+        <li>Strong people are busy, but accountability is still fuzzy.</li>
+        <li>You remain the escalation point for issues your team should own.</li>
+        <li>Strategy exists, but execution pace is inconsistent across functions.</li>
+      </ul>
+      <a class="btn btn-primary" href="#contact">Book a Consultation</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>We do not just advise. We help you change how the team operates.</h2>
+      <div class="kpis">
+        <div class="card"><strong>Alignment</strong><br/>Align leadership behaviour with business priorities.</div>
+        <div class="card"><strong>Decision Speed</strong><br/>Make decisions faster and make them stick.</div>
+        <div class="card"><strong>Ownership</strong><br/>Raise accountability and reduce escalation dependence.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="container">
+      <h2>Choose the support model that fits your bottleneck</h2>
+      <div class="services-grid">
+        <div class="card">
+          <h3>Executive Coaching</h3>
+          <p>For CEOs and leadership teams needing stronger alignment, clarity, and execution discipline.</p>
+        </div>
+        <div class="card">
+          <h3>Fractional C-Suite</h3>
+          <p>For companies needing senior finance, sales, marketing, or people leadership capacity.</p>
+        </div>
+        <div class="card">
+          <h3>Strategy Facilitation</h3>
+          <p>For teams needing alignment sessions that translate into action, not notes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container results-grid">
+      <div class="card">
+        <h2>Client outcomes</h2>
+        <p class="quote">"They got more done in a 90-day period than we would have gotten done in six months."</p>
+        <p>- Patrick Butler, CEO</p>
+        <p class="quote">"Every person coached was promoted."</p>
+        <p>- Anna Mohr, VP of HR</p>
+      </div>
+      <div class="card">
+        <h2>Why this works</h2>
+        <p>KLE combines candid diagnosis, practical coaching, and embedded execution support.</p>
+        <p>You get leadership change that is visible in day-to-day operating performance.</p>
+        <a class="btn btn-primary" href="#contact">Book Your Free 30-Minute Consultation</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container contact-grid">
+      <div>
+        <h2>Ready to get clear on the real bottleneck?</h2>
+        <p>Book a free 30-minute consultation and we will map the issue, priority, and next move.</p>
+        <p><strong>Call:</strong> 949-216-8652</p>
+        <p><strong>Address:</strong> 2618 San Miguel Drive, No. 109, Newport Beach, CA 92660</p>
+      </div>
+      <div class="form-mock">
+        <div class="field">Full name</div>
+        <div class="field">Work email</div>
+        <div class="field">Company</div>
+        <div class="field">Role</div>
+        <div class="field">What challenge are you currently facing?</div>
+        <a class="btn btn-primary" href="#">Book Your Free 30-Minute Consultation</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">Kothari Leadership Enterprises - Landing page mockup</div>
+  </footer>
+</body>
+</html>
+

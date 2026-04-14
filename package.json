@@ -1,0 +1,15 @@
+{
+  "name": "kle-site-static-preview",
+  "private": true,
+  "description": "Serves the KLE static HTML preview on Railway (or locally).",
+  "scripts": {
+    "start": "node railway-serve.js",
+    "preview": "node railway-serve.js"
+  },
+  "dependencies": {
+    "serve": "14.2.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

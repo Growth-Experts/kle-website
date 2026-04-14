@@ -1,0 +1,10 @@
+# https://docs.railway.com/guides/cli
+# Deploy this repo/folder; Railway runs `npm install` then `npm start`.
+# Set root directory to this folder if the project lives inside a monorepo.
+
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 3
