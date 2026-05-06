@@ -1,0 +1,1021 @@
+﻿Kothari Leadership
+
+Website Copy â€” Revised Draft
+
+Home Â· About Â· Results Â· Contact
+
+This document contains the full revised copy for all four pages of the Kothari Leadership website. The hero direction sharpens the bottleneck-pain hook from the v2 build, layers in loss-aversion through a dedicated cost-of-inaction section, and integrates the proof points the v2 currently buries â€” including the 90-day velocity claim from the Patrick Butler quote.
+
+
+
+SEO meta content sits at the foot of each page. Local references to Orange County and Newport Beach are kept light, surfacing only in the footer and FAQ as agreed. Each page closes with implementation notes covering structured data and on-page recommendations for the build team.
+
+
+
+Drafting principles applied:
+
+Hero pivots from diagnosis to felt-pain hook, with the differentiator (90-day velocity) earning its place above the fold via the trust strip and the social proof block.
+
+"Cost of inaction" reinstated as a dedicated homepage section to separate problem-recognition from solution.
+
+"Trusted by" logo strip block specified above the fold.
+
+Method written so it can be lifted into a visual graphic later (four pillars, single-line definitions).
+
+FAQ uses question-first H3s so the section is ready for FAQPage structured data.
+
+Definitional language seeded throughout to support AI-search citations ("What is operational coaching?", "What is fractional C-suite support?").
+
+CTAs sharpened from "Book a Leadership Strategy Call" to "Map my bottleneck (free 30-min call)" â€” the new CTA tells the reader what the call delivers, not just what it is.
+
+Risk-reversal microcopy ("No prep, no pitch. You will leave with a clearer view of the bottleneck whether or not we work together") moved up from the Contact page to the homepage hero, the homepage final CTA, and the Results final CTA â€” so the reassurance is in view at every booking decision.
+
+Cost-of-inaction bullets rewritten as concrete pattern-match scenarios drawn from KLEâ€™s engagement experience â€” specific enough to land, framed as observations rather than statistics so no external citation is needed.
+
+
+
+Homepage
+
+
+
+Hero
+
+Eyebrow: Executive coaching + fractional C-suite support
+
+H1: You did not build this company to be the bottleneck.
+
+Subheadline: Kothari Leadership helps founders, CEOs, and leadership teams remove decision friction, restore accountability, and turn strategy into execution under real operating pressure.
+
+Primary CTA: Map my bottleneck (free 30-min call)
+
+Secondary CTA: See Client Results
+
+Microcopy under CTA: No prep, no pitch. You will leave with a clearer view of the bottleneck â€” even if we do not work together.
+
+
+
+Build note: Hero retains the v2 bottleneck hook but sharpens it. "You did not build this company to be the bottleneck" is more emotionally direct than "Your team is busy. Execution is still breaking down" â€” it implicates the reader and validates them in the same sentence. The CTA is now specific about what the user actually receives ("Map my bottleneck") rather than describing the meeting format. The microcopy carries the risk reversal up from the contact page so the booking decision is made with that reassurance already in view.
+
+
+
+Trusted-By Logo Strip (NEW â€” above the fold)
+
+Section above the trust-strip stats.
+
+Heading (small, sentence case): Trusted by leadership teams across Orange County, Los Angeles, and beyond
+
+
+
+Build note: Grayscale logo row, 5â€“7 client logos. Move this above the numbered KPI strip so System-1 trust validates before any number is read. If client logos cannot be used due to confidentiality, replace with a single-line statement: "We coach leadership teams at venture-backed start-ups, family-owned operators, and Fortune 500 divisions."
+
+
+
+Trust Strip (KPIs)
+
+125+ CEOs coached since 2008
+
+15+ companies successfully exited or sold
+
+15%â€“30% annual enterprise value increase (client-reported range)
+
+100% promotion rate among directly coached executives (client-reported)
+
+
+
+Section 1 â€” Problem Recognition
+
+Eyebrow: Current reality
+
+H2: Is this what growth looks like right now?
+
+
+
+Leadership meetings are full, but key decisions keep getting reopened.
+
+Strong people are working hard, but ownership is still unclear.
+
+Escalations continue to route through the founder or CEO.
+
+Strategy is defined, but execution pace is inconsistent across functions.
+
+
+
+If this feels familiar, the issue is rarely effort. It is leadership alignment, role clarity, and execution discipline.
+
+
+
+Section CTA: Map my bottleneck (free 30-min call)
+
+
+
+Section 2 â€” The Hidden Cost of Misalignment (REINSTATED)
+
+Eyebrow: Cost of inaction
+
+H2: What is the delay already costing you?
+
+
+
+In nearly every leadership team we diagnose, the cost of misalignment is already being paid â€” it is just not on a line item. We see it most often in three patterns:
+
+
+
+A senior hire whose week is dominated by rework that should have been settled at the leadership table.
+
+A strategic initiative that slips a quarter or two because no one owns the cross-functional decision.
+
+A founder pulled back into operations the same week they were meant to be working on the next stage of growth.
+
+
+
+None of these show up as a single bad quarter. They compound quietly across many of them.
+
+
+
+The right question is not "Can we wait?" It is "What is the delay already costing us?"
+
+
+
+Build note: This section is the loss-aversion lever from the original messaging proposal. The scenarios are written as observations from KLE engagements rather than as statistics â€” no external citation needed, but specificity is preserved so the reader can pattern-match to their own week. Visually, this section should feel heavier than the surrounding blocks â€” darker background or quote-style treatment.
+
+
+
+Section 3 â€” Solution
+
+Eyebrow: The solution
+
+H2: We do not stop at advice. We help your team execute.
+
+
+
+KLE combines executive coaching with practical operating support to help you:
+
+
+
+Align leadership behavior with business priorities
+
+Increase decision quality and follow-through
+
+Raise ownership across the leadership layer
+
+Reduce dependency on founder escalation
+
+
+
+Inline CTA: About our approach â†’
+
+
+
+Section 4 â€” Engagement Models
+
+Eyebrow: Engagements
+
+H2: Choose the support model that fits your bottleneck
+
+Coaching for behavior and alignment. Fractional leadership for functional execution. Facilitation for crisp commitments.
+
+
+
+Executive + Leadership Team Coaching
+
+Upgrade decision quality, accountability, and cross-functional execution without turning leadership work into theatre.
+
+
+
+Fractional C-Suite Support
+
+Senior finance, sales, marketing, and people leadership embedded where you need it. A fractional C-suite leader operates inside your team â€” not from a slide deck.
+
+
+
+Strategy Facilitation + Offsites
+
+Alignment sessions that end with named owners, dated commitments, and a follow-through cadence you can audit.
+
+
+
+Section 5 â€” Method Snapshot
+
+Eyebrow: Method snapshot
+
+H2: EQ + Execution, applied in real operating conditions
+
+Our approach is designed to solve behavioral and operational bottlenecks at the same time.
+
+
+
+01 â€” Clarity
+
+Identify the leadership and operating constraints behind stalled execution.
+
+
+
+02 â€” Alignment
+
+Align people, roles, priorities, and communication around what matters now.
+
+
+
+03 â€” Mastery
+
+Build leadership habits that scale beyond any one person.
+
+
+
+04 â€” Agility
+
+Install operating rhythms that sustain execution under pressure.
+
+
+
+Build note: This block is written so it can be lifted directly into a circular or four-quadrant graphic. Each pillar is one verb + one outcome. The visual treatment is the single biggest upgrade opportunity flagged in the competitor analysis â€” replacing four text columns with a graphic moves the page from brochure to brand.
+
+
+
+Section 6 â€” Social Proof (90-day claim earns its place here)
+
+Eyebrow: Results
+
+H2: What changes when leadership alignment improves
+
+
+
+"They got more done in a 90-day period than we would have gotten done in six months."
+
+â€” Patrick Butler, CEO
+
+
+
+"Every person who they have directly coached, they have all been promoted."
+
+â€” Anna Mohr, VP of HR
+
+
+
+"Managing versus leading is the difference between how you scale. Can you afford not to?"
+
+â€” David Harlow, President
+
+
+
+"He is executive, results-oriented, but still an empath. That combination is powerful."
+
+â€” Andreas Pettersson, Former CEO
+
+
+
+Section CTA: Read client results â†’
+
+
+
+Build note: The Patrick Butler quote is the single most persuasive line on the site â€” it substantiates the 90-day velocity claim without KLE having to assert it directly. Visually, treat it as the anchor of this section, not as one quote among four.
+
+
+
+Section 7 â€” FAQ
+
+H2: Questions and considerations
+
+
+
+Is this coaching, consulting, or both?
+
+Both. We combine leadership coaching with practical execution support, calibrated to your current challenge. Some engagements are coaching-led, some are fractional-led, and many include both.
+
+
+
+How quickly should we expect traction?
+
+Most clients report meaningful shifts in leadership behavior and execution rhythm within the first 90 days. Several clients have described 90-day periods where their teams accomplished what would otherwise have taken six months.
+
+
+
+Will this undermine our existing leaders?
+
+No. Engagements are designed to strengthen internal leadership authority through clearer roles, sharper decision rights, and visible accountability â€” not to replace it.
+
+
+
+What is operational coaching, and how is it different from regular executive coaching?
+
+Operational coaching combines leadership development with embedded execution support. A traditional executive coach works on mindset and behavior. Operational coaching does that, and also helps the leader translate behavior change into operating rhythms, decision protocols, and team accountability â€” inside the live business.
+
+
+
+What is fractional C-suite support?
+
+Fractional C-suite support means a senior leader (CFO, COO, CMO, or CPO equivalent) operates inside your business on a part-time, ongoing basis. The work is hands-on and embedded â€” not advisory or project-based. It suits companies that need senior functional capacity but do not yet need a full-time hire.
+
+
+
+Do you only work in Orange County?
+
+No. We are based in Newport Beach and work most actively across Orange County and Los Angeles, but we support leadership teams remotely across the United States.
+
+
+
+Is this too expensive for where we are now?
+
+If misalignment is already slowing execution, delaying the fix is usually the higher-cost decision. We can help you scope the right starting point in the consultation.
+
+
+
+Build note: This FAQ is intentionally written for FAQPage structured data. The two definitional questions ("What is operational coaching?", "What is fractional C-suite support?") are seeded for AI-search citations â€” they are the answer-shaped queries CEOs ask Perplexity and ChatGPT. Mark up with FAQPage schema in the build.
+
+
+
+Section 8 â€” Final CTA
+
+H2: If growth is exposing leadership gaps, now is the time to fix them.
+
+You do not need another strategy deck. You need a leadership system that executes under pressure.
+
+Primary CTA: Map my bottleneck (free 30-min call)
+
+Microcopy under CTA: No prep, no pitch. Walk away with a clearer view of the bottleneck whether or not we work together.
+
+
+
+
+
+Homepage SEO Meta
+
+Meta Title: Executive Coaching for CEOs Who Are the Bottleneck | Kothari Leadership
+
+Meta Description: Kothari Leadership helps CEOs and leadership teams remove decision friction, restore accountability, and execute priorities â€” fast. Coaching, fractional C-suite, and facilitation.
+
+Open Graph Title: Stop Being the Bottleneck. Start Scaling. | Kothari Leadership
+
+Open Graph Description: Executive coaching and fractional C-suite support for founders and CEOs who need their leadership teams to execute without escalation.
+
+Primary keyword cluster: executive coaching for CEOs, scale without becoming the bottleneck, founder-led growth bottleneck
+
+Secondary keyword cluster: fractional C-suite, operational coaching, leadership team alignment
+
+
+
+Schema markup recommended: Organization, LocalBusiness (with Newport Beach address), FAQPage (using the FAQ section above), Person (Amit Kothari, on the About page).
+
+
+
+About Page
+
+
+
+Hero
+
+Eyebrow: About KLE
+
+H1: Built for leaders who are carrying too much, too often.
+
+Subheadline: Kothari Leadership exists to help growth-minded leaders solve the real constraints behind stalled execution: misalignment, unclear ownership, and decisions that do not stick.
+
+Primary CTA: Map my bottleneck (free 30-min call)
+
+Secondary CTA: See Client Results
+
+
+
+Section 1 â€” Why We Exist
+
+H2: The real problem is rarely strategy.
+
+
+
+Most leadership teams already know what they should do.
+
+
+
+The breakdown happens in how priorities are communicated, how decisions get made under pressure, and whether accountability actually holds when the next quarter arrives.
+
+
+
+KLE was built to close that gap between strategic intent and consistent execution.
+
+
+
+Section 2 â€” Meet Amit Kothari
+
+H2: Meet Amit Kothari
+
+
+
+Amit Kothari is a veteran COO and CFO, bestselling author, and executive coach with experience across venture-backed start-ups and Fortune 500 environments.
+
+
+
+His work combines business rigor with human insight, helping leaders face hard truths while building practical momentum. He has sat in the operator chair, faced existential business decisions, and come out the other side â€” which is why clients describe him as a peer-level confidant rather than an outside consultant.
+
+
+
+Amit is the author of [Book Title] and host of [Podcast Name], where he interviews founders and operators on the realities of scaling under pressure.
+
+
+
+Primary CTA: Map my bottleneck â€” book a call with Amit
+
+Secondary links: Listen to the podcast Â· Read the book
+
+
+
+Build note: Replace [Book Title] and [Podcast Name] with the actual titles before publish. The "peer-level confidant" framing is the central differentiator vs Heidrick (corporate) and MAP (system-driven) â€” protect this language. Imagery should be a candid photo of Amit in working context (whiteboard session, speaking on stage, in conversation), not a posed headshot.
+
+
+
+Section 3 â€” What Makes KLE Different
+
+H2: We are not a slide-deck consultancy.
+
+KLE combines four things most advisory firms keep separate:
+
+
+
+Candour
+
+We surface the issue beneath the symptom. Most consulting engagements fail because the real problem never gets named.
+
+
+
+Leadership depth
+
+We build behavior change at the executive level â€” where the decisions that shape the company actually get made.
+
+
+
+Execution support
+
+We help teams apply change in real operating conditions, not in a workshop. The work happens inside the business, on live decisions.
+
+
+
+Business focus
+
+We connect leadership work to measurable outcomes: revenue, valuation, retention, decision velocity. If it does not move the business, it is not the right intervention.
+
+
+
+Section 4 â€” How We Work
+
+H2: EQ + Execution in practice
+
+Our method blends emotional intelligence with disciplined execution to produce durable leadership and business results. We work in four operating phases:
+
+
+
+Clarity
+
+Identify root leadership and operating constraints â€” the ones behind the symptoms the team has been managing around.
+
+
+
+Alignment
+
+Align roles, priorities, and communication so the leadership team is rowing in the same direction with the same vocabulary.
+
+
+
+Mastery
+
+Develop leadership behavior that scales beyond founder dependency.
+
+
+
+Agility
+
+Install operating rhythms and tools that sustain performance when the next pressure arrives â€” because it always does.
+
+
+
+Section 5 â€” Credibility Strip
+
+125+ CEOs coached since 2008
+
+15+ companies successfully exited or sold
+
+15%â€“30% annual enterprise value increase (client-reported range)
+
+100% promotion rate among directly coached executives (client-reported)
+
+
+
+Section 6 â€” Team and Delivery Model
+
+H2: A senior team. Engagements built around your context.
+
+KLE coaches and consultants are people-focused, research-informed, and execution-driven. Engagements are scoped to your specific bottleneck â€” not delivered from a generic template.
+
+
+
+Section 7 â€” Final CTA
+
+H2: If growth is exposing leadership gaps, we should talk.
+
+Book a leadership consultation and leave with a clearer view of the bottleneck, the priority, and the highest-leverage next step.
+
+Primary CTA: Map my bottleneck (free 30-min call)
+
+
+
+
+
+About Page SEO Meta
+
+Meta Title: About Amit Kothari + KLE | Executive Coaching That Executes
+
+Meta Description: Meet Amit Kothari and the KLE team. Veteran COO and CFO experience applied to leadership coaching, fractional C-suite support, and execution discipline.
+
+Open Graph Title: About KLE | Leadership Coaching With an Operatorâ€™s Lens
+
+Open Graph Description: Kothari Leadership combines candid coaching, leadership depth, and embedded execution support â€” built by operators, for operators.
+
+Primary keyword cluster: Amit Kothari, executive coach for CEOs, peer-level CEO coaching
+
+
+
+Schema markup recommended: Person schema for Amit Kothari (with sameAs links to LinkedIn, podcast, book), AboutPage schema for the page itself.
+
+
+
+Results Page
+
+
+
+Hero
+
+Eyebrow: Client outcomes
+
+H1: When leadership alignment improves, results follow.
+
+Subheadline: KLE helps CEOs and executive teams turn strategic intent into measurable business outcomes through candid coaching and practical execution support.
+
+Primary CTA: Map my bottleneck (free 30-min call)
+
+Secondary CTA: Read Case Studies
+
+
+
+Section 1 â€” KPI Snapshot
+
+H2: Signals from client engagements
+
+
+
+125+ CEOs coached since 2008
+
+15+ companies successfully exited or sold
+
+15%â€“30% annual enterprise value increase (client-reported range)
+
+100% promotion rate among directly coached executives (client-reported)
+
+90 days â€” acceleration reported by multiple clients on transformation engagements
+
+
+
+Outcomes vary by context, team readiness, and execution baseline.
+
+
+
+Section 2 â€” Outcome Themes
+
+H2: What tends to change first
+
+
+
+Execution consistency
+
+Teams move faster because priorities are clearer, decisions stick, and ownership is named.
+
+
+
+Leadership leverage
+
+Founders and CEOs spend less time in operational escalation loops and more time on the work only they can do.
+
+
+
+Team accountability
+
+Roles, ownership, and follow-through become visible and consistent â€” not a quarterly performance management exercise.
+
+
+
+Talent decisions
+
+Leaders make sharper calls on role fit, performance, and succession, with less avoidance and less drift.
+
+
+
+Section 3 â€” Client Voice
+
+H2: What clients say
+
+
+
+"They got more done in a 90-day period than we would have gotten done in six months."
+
+â€” Patrick Butler, CEO
+
+
+
+"Every person who they have directly coached, they have all been promoted."
+
+â€” Anna Mohr, VP of HR
+
+
+
+"Managing versus leading is the difference between how you scale. Can you afford not to?"
+
+â€” David Harlow, President
+
+
+
+"Executive, results-oriented, and still an empath. That combination is powerful."
+
+â€” Andreas Pettersson, Former CEO
+
+
+
+"In a market saturated with consultants, they are one of the rare ones that actually get stuff done."
+
+â€” Patrick Butler, CEO
+
+
+
+Section 4 â€” Featured Case Studies
+
+H2: Engagements in detail
+
+Each case study is a separate page, written for a specific situation type and indexed for the corresponding search intent.
+
+
+
+Suggested case study tile titles
+
+How a venture-backed SaaS team cut decision cycle time from weeks to days
+
+Scaling without the founder bottleneck: a 90-day operating reset
+
+From management to leadership: building a promotion-ready bench
+
+Pre-exit alignment: preparing a leadership team for due diligence
+
+Post-acquisition integration: aligning two leadership cultures in 90 days
+
+
+
+Build note: Each tile should link to a real /results/[slug] URL. These titles are written as keyword-targeted page titles â€” they map onto specific search intents (founder bottleneck, leadership scaling, exit prep, post-acquisition integration). Even three live case studies will materially outperform an empty placeholder grid.
+
+
+
+Section 5 â€” Why These Results Happen
+
+H2: The KLE difference
+
+
+
+Most advisory engagements stop at recommendations. KLE combines:
+
+
+
+Candid diagnosis â€” the issue beneath the symptom gets named.
+
+Practical leadership coaching â€” applied to real decisions, not theoretical scenarios.
+
+Embedded execution support â€” the work happens inside the operating cadence, not in a workshop.
+
+
+
+That combination is why clients describe the work as "ideas plus action," not advice alone.
+
+
+
+Section 6 â€” ROI Perspective
+
+H2: Why leaders treat this as an investment, not a cost
+
+
+
+The right question is not whether leadership support has a cost. The right question is what misalignment is already costing:
+
+
+
+Delayed strategic execution
+
+Recurring decision rework
+
+Avoidable leadership bottlenecks
+
+Lost team momentum
+
+
+
+For most teams, ROI shows up first as reduced friction and faster execution confidence â€” and compounds from there.
+
+
+
+Section 7 â€” Final CTA
+
+H2: Want outcomes like these in your team?
+
+Book a consultation and we will map:
+
+Your current execution bottleneck
+
+The leadership behavior driving it
+
+The highest-leverage next move
+
+
+
+Primary CTA: Map my bottleneck (free 30-min call)
+
+Microcopy under CTA: No prep, no pitch. You will leave with a clearer view of the issue whether or not we work together.
+
+
+
+
+
+Results Page SEO Meta
+
+Meta Title: Executive Coaching Results | Case Studies & Outcomes | Kothari Leadership
+
+Meta Description: See how Kothari Leadership helps CEOs and executive teams improve alignment, reduce bottlenecks, and execute with greater speed. Case studies and client outcomes.
+
+Open Graph Title: KLE Results | Leadership Alignment That Drives Outcomes
+
+Open Graph Description: Client outcomes, leadership transformations, and case studies from Kothari Leadership engagements â€” including 90-day execution accelerations.
+
+Primary keyword cluster: 90-day business transformation, executive coaching results, leadership coaching ROI
+
+
+
+Schema markup recommended: CollectionPage for the case studies grid, individual Article or CaseStudy schema for each linked case study page, AggregateRating if testimonials can be tied to a review platform.
+
+
+
+Contact Page
+
+
+
+Hero
+
+Eyebrow: Contact
+
+H1: If execution is slowing down, let us find the bottleneck.
+
+Subheadline: Use this consultation to pressure-test your leadership bottlenecks and leave with a clear, prioritized next step.
+
+Primary CTA: Map my bottleneck (free 30-min call)
+
+Support line: Prefer to speak directly? Call 949-216-8652
+
+
+
+Section 1 â€” What To Expect
+
+H2: What happens in the consultation
+
+In this session, we focus on practical clarity:
+
+
+
+Your current leadership and execution bottleneck
+
+The root cause behind recurring friction
+
+The highest-leverage next step for your team
+
+
+
+You will leave with a clearer picture of the issue, even if we do not work together.
+
+
+
+Section 2 â€” Who This Is For
+
+H2: Who this is for
+
+
+
+Founders, CEOs, and presidents scaling leadership teams
+
+Leadership teams facing misalignment or execution inconsistency
+
+Companies navigating transition, restructuring, or accelerated growth
+
+Organisations weighing coaching, fractional leadership, or facilitation support
+
+
+
+Section 3 â€” Engagement Pathways
+
+H2: We will help you choose the right starting point
+
+
+
+Executive + Leadership Team Coaching
+
+For behavior, alignment, and decision-quality upgrades at leadership level.
+
+
+
+Fractional C-Suite Support
+
+For practical finance, sales, marketing, or people leadership capacity, embedded inside your operating cadence.
+
+
+
+Strategy Facilitation + Offsites
+
+For focused alignment, planning, and named execution commitments.
+
+
+
+Section 4 â€” Trust and Proof
+
+H2: Why leaders choose KLE
+
+
+
+125+ CEOs coached since 2008
+
+15+ companies successfully exited or sold
+
+15%â€“30% annual enterprise value increase (client-reported range)
+
+
+
+"They got more done in a 90-day period than we would have gotten done in six months."
+
+â€” Patrick Butler, CEO
+
+
+
+Section 5 â€” Contact Options
+
+
+
+Book online
+
+Use the calendar below to book your free consultation directly.
+
+
+
+Call
+
+949-216-8652
+
+
+
+Visit / mail
+
+2618 San Miguel Drive, No. 109
+
+Newport Beach, CA 92660
+
+
+
+Section 6 â€” Contact Form Fields
+
+Full name
+
+Work email
+
+Company
+
+Role
+
+Team size (optional)
+
+Preferred support type â€” coaching / fractional / facilitation / unsure
+
+What challenge are you currently facing?
+
+
+
+Section 7 â€” FAQ
+
+H2: Common questions
+
+
+
+Do I need to know which service I want before booking?
+
+No. Most clients are not sure when they first reach out. We can diagnose your situation in the consultation and recommend the right starting point.
+
+
+
+Is the consultation really free?
+
+Yes. The first consultation is free, and you will leave with a usable view of the bottleneck even if we do not work together.
+
+
+
+Do you only work in Orange County?
+
+No. We are based in Newport Beach and work most actively across Orange County and Los Angeles, but we support leadership teams remotely across the United States.
+
+
+
+Can more than one leader join the consultation?
+
+Yes. If alignment is the issue, bringing the relevant decision-makers makes the conversation more useful.
+
+
+
+How long is the consultation?
+
+Thirty minutes by default. We can extend to forty-five if the situation warrants it.
+
+
+
+Section 8 â€” Final CTA
+
+H2: Ready to get clear on the real bottleneck?
+
+Book your consultation and we will map the issue, the priority, and the next move.
+
+Primary CTA: Map my bottleneck (free 30-min call)
+
+
+
+
+
+Contact Page SEO Meta
+
+Meta Title: Book a Free Executive Coaching Consultation | Kothari Leadership
+
+Meta Description: Book a free 30-minute consultation with Kothari Leadership. Practical clarity on leadership bottlenecks, team alignment, and execution priorities.
+
+Open Graph Title: Contact KLE | Book Your Leadership Consultation
+
+Open Graph Description: Speak with Kothari Leadership about leadership alignment, execution bottlenecks, and the right support model for your team.
+
+Primary keyword cluster: executive coaching consultation, CEO coaching Newport Beach, leadership consultation Orange County
+
+
+
+Schema markup recommended: ContactPage, LocalBusiness (Newport Beach address, phone, hours), FAQPage (using the contact FAQ above).
+
+
+
+Appendix â€” SEO Implementation Checklist
+
+
+
+On-page essentials
+
+Each page has a unique meta title (under 60 characters) and meta description (under 160 characters).
+
+Each page has exactly one H1, with the primary keyword inside it.
+
+All images have descriptive alt text (especially Amit photos â€” for example, "Amit Kothari coaching a leadership team in Newport Beach").
+
+Internal linking: every page links to at least two others using descriptive anchor text (not "click here").
+
+
+
+Schema markup priorities
+
+Organization schema â€” site-wide, with logo, address, sameAs links to LinkedIn and the podcast.
+
+LocalBusiness schema â€” Newport Beach office, opening hours, phone.
+
+Person schema â€” Amit Kothari, on the About page, with sameAs links to LinkedIn, the book, and the podcast.
+
+FAQPage schema â€” homepage and Contact FAQ sections both qualify.
+
+Article or CaseStudy schema â€” each individual case study page once published.
+
+
+
+Local SEO essentials (light touch, as agreed)
+
+Google Business Profile claimed and synchronized with site address, phone, and hours.
+
+NAP (name, address, phone) consistent across the site footer, GBP, and any directories.
+
+Footer surfaces "Newport Beach Â· Orange County Â· Los Angeles" without forcing it into the headline copy.
+
+
+
+AI search readiness
+
+Definitional language seeded in the homepage FAQ ("What is operational coaching?", "What is fractional C-suite support?") to support citations from ChatGPT, Perplexity, and Google AI Overviews.
+
+Stats are stated with attribution ("client-reported"), which AI systems prefer when generating sourced answers.
+
+Each FAQ answer is self-contained â€” readable as a standalone snippet, no required context from the surrounding page.
+
+
+
+Content surfaces to add (post-launch)
+
+/insights or /resources hub â€” required for the topic-cluster strategy from the original messaging proposal.
+
+Individual case study pages at /results/[slug] â€” three to five at minimum to populate the Results grid meaningfully.
+
+Author bio page for Amit (separate from About) â€” improves Person schema and supports E-E-A-T for Google and AI search.
+
+

@@ -10,9 +10,9 @@ Secondary CTAs (as used on-page):
 
 ## Hero
 
-**H1:** Your team is busy. Execution is still breaking down.
+**H1:** You didn’t build this company to be the bottleneck.
 
-**Subheadline:** When priorities conflict, decisions stall, and everything routes through you, growth slows. Kothari Leadership helps CEOs and leadership teams restore alignment and turn strategy into execution.
+**Subheadline:** When priorities conflict, decisions stall, and everything routes through you, growth slows. Kothari Leadership helps founders, CEOs, and leadership teams remove the bottleneck, restore alignment, and turn strategy into execution.
 
 **Primary CTA:** Book a Leadership Strategy Call
 
@@ -45,6 +45,23 @@ If this feels familiar, the problem is usually not effort. It is leadership alig
 
 ---
 
+## Loss Aversion Section
+
+### The hidden cost of misalignment
+
+When execution friction becomes normal, your business pays for it every month:
+
+- strategic projects miss windows and lose momentum
+- senior leaders spend time on rework instead of forward movement
+- decisions are revisited instead of implemented
+- growth slows because too much still depends on founder escalation
+
+If this pattern is costing your team speed, confidence, and capacity, the key question is not "Can we wait?" but "Can we afford not to fix this?"
+
+**Primary CTA:** Book a Leadership Strategy Call
+
+---
+
 ## Solution Section
 
 ### We do not just advise. We help you change how the team actually operates.
@@ -55,6 +72,18 @@ KLE combines executive coaching with practical execution support to help you:
 - make decisions faster and stick to them
 - raise ownership across the team
 - move from reactive management to strategic leadership
+
+**Secondary CTA:** About Us
+
+---
+
+## Amit Factor Section
+
+### A CEO's most trusted ally in the room
+
+Clients describe Amit Kothari as a peer-level confidant: someone who has operated under real pressure, can challenge directly, and still keep leaders aligned around action.
+
+You get more than advice. You get honest perspective, practical structure, and support that moves the team forward.
 
 **Secondary CTA:** About Us
 
@@ -72,6 +101,18 @@ KLE combines executive coaching with practical execution support to help you:
 
 "Managing vs leading is the difference between how you scale."  
 — David Harlow, President
+
+**Secondary CTA:** Read Client Results
+
+---
+
+## Hard Gold Metrics
+
+### Evidence from client engagements
+
+- **100% promotion rate** among leaders directly coached by KLE (client-reported)
+- **180-day initiatives delivered in 90 days** in transformation engagements
+- **125+ CEOs coached** since 2008
 
 **Secondary CTA:** Read Client Results
 
@@ -111,6 +152,9 @@ We design engagements to improve alignment and role clarity, not replace interna
 **Do you only work in Orange County?**  
 No. We support leaders across Orange County, Los Angeles, and selected remote engagements.
 
+**Is this too expensive for where we are now?**  
+If leadership friction is already costing time, speed, and execution quality, delaying the fix is often the higher-cost option.
+
 **Primary CTA:** Book a Leadership Strategy Call
 
 ---
@@ -119,7 +163,7 @@ No. We support leaders across Orange County, Los Angeles, and selected remote en
 
 ### If growth is exposing leadership gaps, now is the right time to fix them.
 
-You do not need another strategy deck. You need a leadership system that executes under real pressure.
+You do not need another strategy deck. You need a leadership system that executes under real pressure and reduces the monthly cost of misalignment.
 
 **Primary CTA:** Book a Leadership Strategy Call
 
@@ -129,7 +173,7 @@ You do not need another strategy deck. You need a leadership system that execute
 
 **Meta Title:** Fix Leadership Misalignment and Execute Faster | Kothari Leadership
 
-**Meta Description:** Kothari Leadership helps CEOs and leadership teams fix misalignment, strengthen accountability, and execute faster. Executive coaching and fractional C-suite support in Orange County and beyond.
+**Meta Description:** Achieve in 90 days what often takes 6 months. Kothari Leadership helps CEOs and leadership teams fix misalignment, reduce bottlenecks, and execute faster across Orange County, Los Angeles, and beyond.
 
 **Open Graph Title:** Execution Breaking Down? Fix Leadership Alignment | Kothari Leadership
 

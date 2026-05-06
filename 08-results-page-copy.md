@@ -8,7 +8,7 @@ Primary CTA: **Read Case Studies**
 
 **H1:** When leadership alignment improves, results accelerate.
 
-**Subheadline:** KLE helps CEOs and executive teams turn strategic intent into measurable outcomes through candid coaching and practical execution support.
+**Subheadline:** KLE helps CEOs and executive teams turn strategic intent into measurable outcomes through candid coaching and practical execution support, often compressing 180-day work into 90-day progress.
 
 **Primary CTA:** Read Case Studies
 
@@ -21,7 +21,8 @@ Primary CTA: **Read Case Studies**
 - **125+** CEOs coached since 2008  
 - **15+** companies successfully exited or sold  
 - **15% - 30%** annual enterprise value increase (client-reported range)  
-- **90-day acceleration** reported in multiple transformation engagements
+- **100% promotion rate** among directly coached leaders (client-reported)  
+- **180-day initiatives completed in 90 days** reported in transformation engagements
 
 **Note:** Outcomes vary by context, team readiness, and execution baseline.
 
@@ -86,6 +87,21 @@ That combination is why clients describe the work as "ideas and action," not adv
 
 ---
 
+## ROI Perspective
+
+### Why leaders treat this as an investment
+
+The question is not whether leadership support has a cost. The question is what misalignment is already costing:
+
+- delayed strategic execution
+- recurring decision rework
+- avoidable founder and executive bottlenecks
+- lost momentum in team performance
+
+For many clients, the practical ROI comes from stopping the friction bleed early and restoring execution velocity in the first 90 days.
+
+---
+
 ## Conversion Section
 
 ### Want outcomes like these in your team?
@@ -104,7 +120,7 @@ Book a free consultation and we will identify:
 
 **Meta Title:** Leadership Consulting Results for CEOs | Kothari Leadership
 
-**Meta Description:** See how Kothari Leadership helps CEOs and executive teams improve alignment, increase execution speed, and achieve measurable leadership outcomes.
+**Meta Description:** See how Kothari Leadership helps CEOs and executive teams improve alignment, reduce bottlenecks, and accelerate measurable outcomes, including 90-day execution gains.
 
 **Open Graph Title:** KLE Results | Leadership Alignment That Drives Outcomes
 

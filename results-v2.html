@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./preview-v2.css" />
 </head>
-<body>
+<body class="ceo-results">
   <div class="read-progress" aria-hidden="true"></div>
   <header class="kle-header">
     <div class="container nav">
@@ -20,99 +20,68 @@
         <a class="active" href="./results-v2.html">Results</a>
         <a href="./contact-v2.html">Contact</a>
       </nav>
-      <a class="btn btn-primary" href="./contact-v2.html">Book a Leadership Strategy Call</a>
     </div>
   </header>
 
-  <section class="hero hero--compact">
-    <div class="container">
-      <div class="hero-panel" style="max-width:980px">
+  <section class="ceo-page-hero">
+    <div class="container ceo-page-hero__grid">
+      <div>
         <div class="eyebrow">Client outcomes</div>
-        <h1>When leadership alignment improves, results accelerate.</h1>
-        <p>KLE helps CEOs and executive teams turn strategic intent into measurable outcomes through candid coaching and practical execution support.</p>
+        <h1>When leadership alignment improves, results follow.</h1>
+        <p>KLE helps CEOs and executive teams turn strategic intent into measurable outcomes through candid coaching and embedded execution support.</p>
         <div class="cta-row">
-          <a class="btn btn-primary" href="#case-studies">Read Case Studies</a>
+          <a class="btn btn-primary" href="./contact-v2.html">Map my bottleneck (free 30-min call)</a>
+          <a class="btn btn-outline" href="#case-studies">Read case studies</a>
         </div>
+      </div>
+      <div class="ceo-page-hero__media">
+        <img src="https://picsum.photos/seed/kle-results-visual/960/700" alt="Leadership outcomes dashboard style visual">
       </div>
     </div>
   </section>
 
-  <section>
-    <div class="container reveal">
-      <div class="section-head">
-        <h2>Signals from client engagements</h2>
+  <section class="ceo-proof reveal">
+    <div class="container ceo-proof__row">
+      <article><strong>125+</strong><span>CEOs coached since 2008</span></article>
+      <article><strong>100%</strong><span>Promotion rate among directly coached executives</span></article>
+      <article><strong>90 days</strong><span>Execution acceleration reported by multiple clients</span></article>
+    </div>
+  </section>
+
+  <section class="ceo-focus reveal">
+    <div class="container ceo-focus__grid">
+      <div>
+        <span class="eyebrow">What tends to change first</span>
+        <h2>Execution consistency, leadership leverage, and cleaner accountability.</h2>
       </div>
-      <div class="kpi-grid">
-        <article class="card kpi-card"><div class="kpi-val">125+</div><p>CEOs coached since 2008</p></article>
-        <article class="card kpi-card"><div class="kpi-val">15+</div><p>Companies successfully exited or sold</p></article>
-        <article class="card kpi-card"><div class="kpi-val">15%-30%</div><p>Annual enterprise value increase (client-reported range)</p></article>
-        <article class="card kpi-card"><div class="kpi-val">90 days</div><p>Acceleration reported in multiple transformation engagements</p></article>
+      <div class="ceo-focus__list">
+        <p>Priorities are clearer and decisions stick.</p>
+        <p>Founders spend less time in escalation loops.</p>
+        <p>Ownership and follow-through become visible.</p>
+        <p>Talent decisions become faster and sharper.</p>
       </div>
-      <p style="margin-top:12px;color:#5f5b66">Outcomes vary by context, team readiness, and execution baseline.</p>
     </div>
   </section>
 
   <section class="light">
-    <div class="container grid-2 reveal">
+    <div class="container grid-2 reveal" id="case-studies">
       <article class="card">
-        <h2>What clients say</h2>
-        <div class="quote">
-          <p>"They got more done in a 90-day period than we would have gotten done in six months."</p>
-          <small>Patrick Butler, CEO</small>
-        </div>
-        <div class="quote" style="margin-top:10px">
-          <p>"Every person who they have directly coached, they have all been promoted."</p>
-          <small>Anna Mohr, VP of HR</small>
-        </div>
-        <div class="quote" style="margin-top:10px">
-          <p>"Managing vs leading is the difference between how you scale. Can you afford not to?"</p>
-          <small>David Harlow, President</small>
-        </div>
-        <div class="quote" style="margin-top:10px">
-          <p>"He is executive, results-oriented, but still an empath. That combination is powerful."</p>
-          <small>Andreas Pettersson, Former CEO</small>
-        </div>
-        <div class="cta-row">
-          <a class="btn btn-primary" href="./contact-v2.html">Book Your Consultation</a>
-        </div>
+        <h2>Featured engagement types</h2>
+        <p>Venture-backed SaaS: decision cycle time reduced from weeks to days.</p>
+        <p>Founder bottleneck reset: 90-day operating stabilization.</p>
+        <p>Leadership bench building: management-to-leadership transition.</p>
       </article>
-      <article class="card">
-        <h2>What tends to change first</h2>
-        <p><strong>Execution speed</strong><br/>Teams move faster because priorities are clearer and decisions are owned.</p>
-        <p><strong>Leadership leverage</strong><br/>Founders and CEOs spend less time in operational escalation loops.</p>
-        <p><strong>Team accountability</strong><br/>Roles, ownership, and follow-through become visible and consistent.</p>
-        <p><strong>Talent quality and structure</strong><br/>Leadership teams make sharper decisions about role fit, performance, and succession.</p>
+      <article class="card modern-image-card">
+        <img src="https://picsum.photos/seed/kle-results-team/1200/900" alt="Executive team discussing outcomes">
       </article>
     </div>
   </section>
 
-  <section>
-    <div class="container grid-2 reveal">
-      <article class="card" id="case-studies">
-        <h2>Featured case study blocks</h2>
-        <p>Placeholder tiles for build: link each to a real case study URL when available.</p>
-      </article>
-      <article class="card">
-        <h2>Why these results happen</h2>
-        <p>Most advisory engagements stop at recommendations.</p>
-        <p>KLE combines candid diagnosis, practical leadership coaching, and embedded execution support.</p>
-        <p>That combination is why clients describe the work as "ideas and action," not advice alone.</p>
-      </article>
-    </div>
-  </section>
-
-  <section class="contact-band">
-    <div class="container grid-2 reveal">
-      <div>
-        <h2>Want outcomes like these in your team?</h2>
-        <p style="color:rgba(255,255,255,.85)">Book a free consultation and we will identify your bottleneck, the leadership behaviour driving it, and the highest-leverage next move.</p>
-      </div>
-      <div class="form-shell">
-        <div class="field">Full name</div>
-        <div class="field">Work email</div>
-        <div class="field">Company</div>
-        <a class="btn btn-primary" href="./contact-v2.html">Book Your Free Consultation</a>
-      </div>
+  <section class="ceo-cta reveal">
+    <div class="container ceo-cta__inner">
+      <h2>Want outcomes like these in your team?</h2>
+      <p>Book a consultation and we will map your bottleneck, the behavior driving it, and the highest-leverage next move.</p>
+      <a class="btn btn-primary btn--lg" href="./contact-v2.html">Map my bottleneck (free 30-min call)</a>
     </div>
   </section>
 

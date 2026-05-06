@@ -8,7 +8,7 @@ Primary CTA: **See Client Results**
 
 **H1:** Built for leaders carrying too much, too often.
 
-**Subheadline:** Kothari Leadership was built to help growth-minded leaders solve the real constraints behind stalled execution: misalignment, unclear ownership, and decisions that do not stick.
+**Subheadline:** Kothari Leadership was built to help growth-minded leaders solve the real constraints behind stalled execution: misalignment, unclear ownership, and decisions that do not stick. The goal is practical 90-day acceleration, not another strategy deck.
 
 **Primary CTA:** See Client Results
 
@@ -32,7 +32,7 @@ KLE exists to close that gap between strategy and execution.
 Amit Kothari is a veteran COO/CFO, bestselling author, and executive coach who has worked across start-ups and Fortune 500 environments.  
 His work is known for combining business rigour with human insight, helping leaders address hard truths while building practical momentum.
 
-Clients often describe Amit as both highly strategic and deeply trusted: someone who can challenge directly, support consistently, and accelerate action.
+Clients often describe Amit as both highly strategic and deeply trusted: a peer-level confidant who can challenge directly, support consistently, and accelerate action.
 
 **Button:** Book a Call with Amit
 
@@ -87,6 +87,7 @@ Engagements are built around your context, not a generic template.
 - **125+** CEOs coached since 2008  
 - **15+** companies exited or sold  
 - **15% - 30%** annual enterprise value increase
+- **100%** of directly coached leaders promoted (client-reported)
 
 **Quote:**  
 "In a market saturated with consultants, they are one of the rare ones that actually get stuff done."  
@@ -98,7 +99,7 @@ Engagements are built around your context, not a generic template.
 
 ### If growth is exposing leadership gaps, we should talk.
 
-Book a leadership consultation and leave with a clearer view of the bottleneck, the priority, and the next move.
+Book a leadership consultation and leave with a clearer view of the bottleneck, the priority, and the next move for the next 90 days.
 
 **Primary CTA:** Book Your Consultation
 
@@ -108,7 +109,7 @@ Book a leadership consultation and leave with a clearer view of the bottleneck, 
 
 **Meta Title:** Meet Amit Kothari and the KLE Team | Leadership Consulting
 
-**Meta Description:** Learn how Kothari Leadership helps CEOs and executive teams close the gap between strategy and execution through candid coaching and practical consulting support.
+**Meta Description:** Meet Amit Kothari and the KLE team. Learn how peer-level executive coaching and practical consulting help CEOs close execution gaps and accelerate outcomes in 90 days.
 
 **Open Graph Title:** About KLE | Leadership That Executes
 
