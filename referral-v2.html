@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Kothari Leadership Partner Playbook</title>
+  <meta name="description" content="Who Kothari Leadership is a fit for, what to listen for in a conversation, and how to make the intro when the moment shows up." />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      /* Brand */
+      --kle-red: #b2292d;
+      --kle-red-deep: #900c19;
+      --kle-grape: #1d1b23;
+      --kle-champagne: #e9db9c;
+      --kle-champagne-soft: #f7f1d8;
+
+      /* Neutrals */
+      --white: #ffffff;
+      --grey-50: #f7f7f7;
+      --grey-100: #efefef;
+      --grey-200: #e0e0e0;
+      --grey-400: #6f6b75;
+      --grey-600: #4d4a55;
+      --grey-800: #1d1b23;
+      --success: #1f5a3a;
+      --fit-bg: #ecfdf3;
+      --fit-border: #a7d9b8;
+
+      /* Type scale */
+      --text-xs: 0.75rem;
+      --text-sm: 0.875rem;
+      --text-base: 1rem;
+      --text-md: 1.0625rem;
+      --text-lg: 1.125rem;
+      --text-xl: 1.25rem;
+      --text-2xl: 1.625rem;
+      --text-display: clamp(2rem, 4vw, 2.75rem);
+
+      /* 8pt spacing */
+      --space-1: 0.25rem;
+      --space-2: 0.5rem;
+      --space-3: 0.75rem;
+      --space-4: 1rem;
+      --space-5: 1.25rem;
+      --space-6: 1.5rem;
+      --space-8: 2rem;
+      --space-10: 2.5rem;
+      --space-12: 3rem;
+
+      /* Radii */
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-pill: 999px;
+
+      --content: 860px;
+      --prose: 65ch;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: "Barlow", system-ui, sans-serif;
+      color: var(--grey-800);
+      background: var(--white);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      font-size: var(--text-lg);
+      font-weight: 400;
+    }
+    a { color: var(--kle-red); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    :focus-visible {
+      outline: 2px solid var(--kle-red);
+      outline-offset: 2px;
+    }
+
+    .page { max-width: var(--content); margin: 0 auto; padding: 0 var(--space-8); }
+
+    .hero { padding: var(--space-12) 0 var(--space-6); text-align: center; }
+    .partner-brand__logo {
+      max-width: 156px;
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto var(--space-5);
+    }
+    .hero__title {
+      font-size: var(--text-display);
+      font-weight: 800;
+      color: var(--grey-800);
+      line-height: 1.12;
+      letter-spacing: -0.03em;
+      margin-bottom: var(--space-3);
+      max-width: 18ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .hero__sub {
+      font-size: var(--text-lg);
+      color: var(--grey-600);
+      max-width: 52ch;
+      line-height: 1.55;
+      margin: 0 auto;
+    }
+    .hero__line {
+      margin-top: var(--space-3);
+      font-size: var(--text-md);
+      font-weight: 700;
+      color: var(--kle-red);
+    }
+    .hero__photo {
+      margin: var(--space-8) auto 0;
+      max-width: 640px;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      border: 1px solid var(--grey-200);
+    }
+    .hero__photo img {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 10;
+      object-fit: cover;
+      object-position: center 20%;
+    }
+
+    .media-figure {
+      margin: var(--space-6) 0 0;
+      max-width: 720px;
+    }
+    .media-figure img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--grey-200);
+      object-fit: cover;
+    }
+    .media-figure figcaption {
+      margin-top: var(--space-2);
+      font-size: var(--text-sm);
+      color: var(--grey-400);
+      line-height: 1.4;
+    }
+
+    .video-wrap { margin: var(--space-2) 0 0; }
+    .video-placeholder {
+      width: 100%;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--grey-200);
+      background: var(--grey-50);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      gap: var(--space-1);
+      padding: var(--space-5) var(--space-6);
+      text-align: left;
+      color: var(--grey-600);
+    }
+    .video-placeholder strong {
+      color: var(--grey-800);
+      font-size: var(--text-md);
+      font-weight: 700;
+    }
+    .video-placeholder span {
+      font-size: var(--text-sm);
+      line-height: 1.5;
+      max-width: 52ch;
+    }
+    .video-embed {
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      aspect-ratio: 16 / 9;
+      width: 100%;
+      display: none;
+    }
+    .video-embed.is-ready { display: block; }
+    .video-embed.is-ready + .video-placeholder { display: none; }
+    .video-embed iframe { width: 100%; height: 100%; border: 0; display: block; }
+
+    .section {
+      padding: var(--space-10) 0;
+      border-top: 1px solid var(--grey-100);
+    }
+    .section__title {
+      font-size: var(--text-2xl);
+      font-weight: 800;
+      color: var(--grey-800);
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      margin-bottom: var(--space-3);
+    }
+    .section__body {
+      font-size: var(--text-md);
+      color: var(--grey-600);
+      line-height: 1.65;
+      max-width: var(--prose);
+    }
+    .section__body + .section__body { margin-top: var(--space-3); }
+    .section__sub {
+      font-size: var(--text-xl);
+      font-weight: 800;
+      color: var(--grey-800);
+      letter-spacing: -0.02em;
+      line-height: 1.25;
+      margin: var(--space-8) 0 var(--space-3);
+    }
+    .note-box {
+      margin-top: var(--space-5);
+      max-width: var(--prose);
+      border-left: 3px solid var(--kle-red);
+      background: var(--grey-50);
+      padding: var(--space-4) var(--space-5);
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    }
+    .note-box p {
+      font-size: var(--text-base);
+      color: var(--grey-600);
+      line-height: 1.65;
+    }
+    .note-box p + p { margin-top: var(--space-3); }
+    .note-box p.italic { font-style: italic; }
+
+    .data-table,
+    .engagement-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: var(--space-5);
+    }
+    .data-table td,
+    .engagement-table td {
+      padding: var(--space-3) var(--space-4);
+      border: 1px solid var(--grey-200);
+      font-size: var(--text-md);
+      vertical-align: top;
+      line-height: 1.5;
+    }
+    .data-table td:first-child,
+    .engagement-table td:first-child {
+      font-weight: 600;
+      color: var(--grey-800);
+      background: var(--kle-champagne-soft);
+      white-space: nowrap;
+      width: 200px;
+    }
+    .data-table td:last-child,
+    .engagement-table td:last-child { color: var(--grey-600); }
+    .ref-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-3);
+      flex-wrap: wrap;
+    }
+    .copy-inline {
+      flex-shrink: 0;
+      background: transparent;
+      border: 1px solid var(--grey-200);
+      color: var(--grey-600);
+      font-size: var(--text-xs);
+      font-weight: 700;
+      min-height: 32px;
+      padding: 0 var(--space-3);
+      border-radius: var(--radius-pill);
+      cursor: pointer;
+      font-family: inherit;
+      transition: border-color 0.2s, color 0.2s, background 0.2s;
+    }
+    .copy-inline:hover {
+      border-color: var(--kle-red);
+      color: var(--kle-red);
+      background: #fff;
+    }
+    .copy-inline:focus-visible {
+      outline: 2px solid var(--kle-red);
+      outline-offset: 2px;
+    }
+    .copy-inline.copied {
+      border-color: var(--success);
+      color: var(--success);
+    }
+
+    .diff-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-5);
+      margin-top: var(--space-5);
+      counter-reset: diff;
+      max-width: var(--prose);
+    }
+    .diff-list li {
+      counter-increment: diff;
+      display: flex;
+      gap: var(--space-3);
+    }
+    .diff-list li::before {
+      content: counter(diff) ".";
+      font-size: var(--text-md);
+      font-weight: 800;
+      color: var(--kle-red);
+      min-width: 1.25rem;
+      margin-top: 1px;
+    }
+    .diff-title {
+      font-size: var(--text-md);
+      font-weight: 700;
+      color: var(--grey-800);
+      line-height: 1.35;
+    }
+    .diff-body {
+      font-size: var(--text-base);
+      color: var(--grey-600);
+      margin-top: var(--space-1);
+      line-height: 1.55;
+    }
+
+    .fit-box {
+      margin-top: var(--space-4);
+      max-width: var(--prose);
+      border: 1px solid var(--fit-border);
+      border-radius: var(--radius-md);
+      background: var(--fit-bg);
+      padding: var(--space-5) var(--space-6);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-3);
+    }
+    .fit-box__item {
+      display: flex;
+      gap: var(--space-3);
+      align-items: flex-start;
+      font-size: var(--text-md);
+      color: var(--grey-600);
+      line-height: 1.55;
+    }
+    .fit-box__icon {
+      flex-shrink: 0;
+      width: 1.25rem;
+      height: 1.25rem;
+      margin-top: 0.15rem;
+      border-radius: var(--radius-pill);
+      background: var(--success);
+      color: #fff;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: var(--text-xs);
+      font-weight: 800;
+      line-height: 1;
+    }
+
+    .listen-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-5);
+      margin-top: var(--space-5);
+      counter-reset: listen;
+      max-width: var(--prose);
+    }
+    .listen-list li {
+      counter-increment: listen;
+      display: flex;
+      gap: var(--space-3);
+    }
+    .listen-list li::before {
+      content: counter(listen) ".";
+      font-weight: 800;
+      color: var(--kle-red);
+      min-width: 1.25rem;
+      flex-shrink: 0;
+    }
+    .listen-title {
+      font-size: var(--text-md);
+      font-weight: 700;
+      color: var(--grey-800);
+      margin-bottom: var(--space-1);
+      line-height: 1.35;
+    }
+    .listen-body {
+      font-size: var(--text-base);
+      color: var(--grey-600);
+      line-height: 1.55;
+    }
+    .listen-quote {
+      margin-top: var(--space-2);
+      font-style: italic;
+      color: var(--grey-600);
+    }
+
+    .template-block + .template-block { margin-top: var(--space-8); }
+    .template-card {
+      max-width: var(--prose);
+      border: 1px solid var(--grey-200);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      background: var(--white);
+    }
+    .template-card--email { border-top: 3px solid var(--kle-red); }
+    .template-card--whatsapp { border-top: 3px solid #25d366; }
+    .template-card--share { border-top: 3px solid var(--kle-grape); }
+    .template-card__head {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+      padding: var(--space-4) var(--space-5);
+      background: var(--grey-50);
+      border-bottom: 1px solid var(--grey-200);
+    }
+    .template-card--whatsapp .template-card__head { background: #f0faf4; }
+    .template-card__icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: var(--radius-sm);
+      flex-shrink: 0;
+    }
+    .template-card--email .template-card__icon {
+      background: var(--kle-champagne-soft);
+      color: var(--kle-red);
+    }
+    .template-card--whatsapp .template-card__icon {
+      background: #fff;
+      color: #25d366;
+    }
+    .template-card--share .template-card__icon {
+      background: #fff;
+      color: var(--kle-grape);
+    }
+    .template-card__title {
+      font-size: var(--text-md);
+      font-weight: 800;
+      color: var(--grey-800);
+      line-height: 1.3;
+    }
+    .template-card__subtitle {
+      font-size: var(--text-sm);
+      color: var(--grey-600);
+      margin-top: 2px;
+      line-height: 1.35;
+    }
+    .template-card__body { padding: var(--space-5); }
+    .template-block__hint {
+      font-size: var(--text-sm);
+      color: var(--grey-600);
+      line-height: 1.55;
+      margin: 0 0 var(--space-3);
+    }
+    .template-textarea {
+      width: 100%;
+      min-height: 168px;
+      padding: var(--space-4) var(--space-5);
+      border: 1.5px solid var(--grey-200);
+      border-radius: var(--radius-sm);
+      font-family: inherit;
+      font-size: var(--text-base);
+      color: var(--grey-800);
+      line-height: 1.65;
+      resize: vertical;
+      outline: none;
+      background: var(--white);
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .template-textarea:focus {
+      border-color: var(--kle-red);
+      box-shadow: 0 0 0 3px rgba(178, 41, 45, 0.1);
+    }
+    .template-card--whatsapp .template-textarea:focus {
+      border-color: #25d366;
+      box-shadow: 0 0 0 3px rgba(37, 211, 102, 0.12);
+    }
+    .copy-btn {
+      margin-top: var(--space-4);
+      background: var(--kle-grape);
+      color: var(--white);
+      border: none;
+      border-radius: var(--radius-sm);
+      min-height: 44px;
+      padding: 0 var(--space-5);
+      font-family: inherit;
+      font-size: var(--text-sm);
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .copy-btn:hover { background: var(--kle-red); }
+    .copy-btn:focus-visible {
+      outline: 2px solid var(--kle-red);
+      outline-offset: 2px;
+    }
+    .copy-btn.copied { background: var(--success); }
+
+    .resource-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--space-4);
+      margin-top: var(--space-5);
+      max-width: var(--prose);
+    }
+    .resource-card {
+      border: 1px solid var(--grey-200);
+      border-radius: var(--radius-md);
+      padding: var(--space-6) var(--space-5);
+      background: var(--white);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-3);
+    }
+    .resource-card__badge {
+      display: inline-block;
+      align-self: flex-start;
+      font-size: 0.6875rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--kle-red);
+      background: var(--kle-champagne-soft);
+      padding: var(--space-1) var(--space-3);
+      border-radius: var(--radius-pill);
+    }
+    .resource-card__title {
+      font-size: var(--text-lg);
+      font-weight: 800;
+      color: var(--grey-800);
+      line-height: 1.25;
+    }
+    .resource-card__body {
+      font-size: var(--text-base);
+      color: var(--grey-600);
+      line-height: 1.6;
+      flex: 1;
+    }
+    .resource-card__link {
+      font-size: var(--text-sm);
+      font-weight: 700;
+      color: var(--kle-red);
+      margin-top: var(--space-1);
+    }
+
+    .accordion {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-2);
+      max-width: var(--prose);
+      margin-top: var(--space-4);
+    }
+    .accordion-item {
+      border: 1px solid var(--grey-200);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+    }
+    .accordion-trigger {
+      width: 100%;
+      min-height: 52px;
+      padding: var(--space-4) var(--space-5);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: none;
+      border: none;
+      font-family: inherit;
+      font-size: var(--text-base);
+      font-weight: 600;
+      color: var(--grey-800);
+      cursor: pointer;
+      text-align: left;
+      gap: var(--space-4);
+    }
+    .accordion-trigger:hover { background: var(--grey-50); }
+    .accordion-trigger .chevron {
+      transition: transform 0.25s;
+      flex-shrink: 0;
+      color: var(--kle-red);
+    }
+    .accordion-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.35s ease, padding 0.25s ease;
+      font-size: var(--text-base);
+      color: var(--grey-600);
+      line-height: 1.65;
+      padding: 0 var(--space-5);
+    }
+    .accordion-item.open .accordion-content {
+      max-height: 1200px;
+      padding: 0 var(--space-5) var(--space-5);
+    }
+    .accordion-item.open .chevron { transform: rotate(180deg); }
+
+    .footer {
+      background: #000000;
+      border-top: 3px solid var(--kle-red);
+      padding: var(--space-8) var(--space-8);
+      margin-top: 0;
+    }
+    .footer__inner {
+      max-width: var(--content);
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: var(--space-3);
+      text-align: center;
+    }
+    .footer__tagline {
+      color: var(--kle-champagne);
+      font-size: var(--text-base);
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+    .footer__links {
+      display: flex;
+      gap: var(--space-5);
+      flex-wrap: wrap;
+      justify-content: center;
+      font-size: var(--text-sm);
+    }
+    .footer__links a { color: rgba(255, 255, 255, 0.8); }
+    .footer__links a:hover { color: #fff; text-decoration: none; }
+    .footer__copy {
+      color: rgba(255, 255, 255, 0.45);
+      font-size: var(--text-sm);
+    }
+
+    @media (max-width: 700px) {
+      .page { padding: 0 var(--space-5); }
+      .hero { padding: var(--space-8) 0 var(--space-4); }
+      .section { padding: var(--space-8) 0; }
+      .partner-brand__logo { max-width: 140px; }
+      .data-table,
+      .engagement-table { table-layout: fixed; }
+      .data-table td,
+      .engagement-table td {
+        padding: var(--space-3);
+        overflow-wrap: anywhere;
+        word-break: break-word;
+      }
+      .data-table td:first-child,
+      .engagement-table td:first-child {
+        white-space: normal;
+        width: 32%;
+      }
+      .ref-row {
+        align-items: flex-start;
+        justify-content: flex-start;
+      }
+      .footer { padding: var(--space-5) var(--space-5) calc(var(--space-5) + env(safe-area-inset-bottom)); }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <section class="hero">
+      <a href="https://kotharileadership.com" target="_blank" rel="noopener noreferrer">
+        <img class="partner-brand__logo" src="./assets/kle-logo.png" alt="Kothari Leadership" />
+      </a>
+      <h1 class="hero__title">The Kothari Leadership Partner Playbook</h1>
+      <p class="hero__sub">Who we’re a fit for, what to listen for in a conversation, and how to make the intro when the moment shows up.</p>
+      <p class="hero__line">One conversation. We take it from there.</p>
+      <figure class="hero__photo">
+        <img src="./assets/amit-presenting.png" alt="Amit Kothari facilitating a leadership session" width="1280" height="800" />
+      </figure>
+    </section>
+
+    <section class="section" id="video" style="border-top: none; padding-top: 0;">
+      <div class="video-wrap">
+        <!-- Set data-src on .video-embed to a YouTube/Vimeo embed URL when ready -->
+        <div class="video-embed" id="partner-video" data-src=""></div>
+        <div class="video-placeholder" role="status">
+          <strong>Partner video coming soon</strong>
+          <span>60–90 seconds with Amit: what KLE does, what to listen for, and how the intro hand-off works.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="reference">
+      <h2 class="section__title">Easy reference</h2>
+      <p class="section__body">Quick links when you’re making an intro or answering questions.</p>
+      <table class="data-table">
+        <tbody>
+          <tr>
+            <td>KLE website</td>
+            <td>
+              <div class="ref-row">
+                <a href="https://kotharileadership.com" target="_blank" rel="noopener noreferrer">kotharileadership.com</a>
+                <button type="button" class="copy-inline" data-copy="https://kotharileadership.com" aria-label="Copy website URL">Copy</button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Amit on LinkedIn</td>
+            <td>
+              <div class="ref-row">
+                <a href="https://www.linkedin.com/in/amit-kothari-leadership-enterprises-ceo-whisperer/" target="_blank" rel="noopener noreferrer">linkedin.com/in/amit-kothari…</a>
+                <button type="button" class="copy-inline" data-copy="https://www.linkedin.com/in/amit-kothari-leadership-enterprises-ceo-whisperer/" aria-label="Copy LinkedIn URL">Copy</button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Book a call with Amit</td>
+            <td>
+              <div class="ref-row">
+                <span>[Calendar link]</span>
+                <button type="button" class="copy-inline" data-copy="[Calendar link]" aria-label="Copy calendar link">Copy</button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td>
+              <div class="ref-row">
+                <a href="mailto:amit@kotharileadership.com">amit@kotharileadership.com</a>
+                <button type="button" class="copy-inline" data-copy="amit@kotharileadership.com" aria-label="Copy email address">Copy</button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Cell</td>
+            <td>
+              <div class="ref-row">
+                <span>[Amit’s cell]</span>
+                <button type="button" class="copy-inline" data-copy="[Amit’s cell]" aria-label="Copy cell number">Copy</button>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section" id="about">
+      <h2 class="section__title">What is Kothari Leadership?</h2>
+      <p class="section__body">Kothari Leadership is a growth consultancy for CEOs. We work inside a company, alongside the leader and their executive team, to unlock the growth being held back by whatever isn’t working at the top. Most CEOs describe it as the first time someone has been able to see their business clearly from the outside without also being able to hide from what’s actually happening on the inside.</p>
+      <div class="note-box">
+        <p class="italic">The CEOs we work with have usually tried the obvious options first: a coach who’s never actually run a company, a consultant whose deliverable turned out to be a deck rather than a change, or a trusted advisor whose loyalty makes them tell you what you want to hear.</p>
+        <p>What they find in KLE is a partner who has actually done the job, who is inside their week for as long as it takes, and who will tell them the things their own team has quietly decided aren’t safe to say.</p>
+      </div>
+
+      <figure class="media-figure">
+        <img src="./assets/kle-team.png" alt="Kothari Leadership working with a leadership team around a conference table" width="1200" height="800" />
+        <figcaption>KLE embeds with the leadership team, in the room, not from a distance.</figcaption>
+      </figure>
+
+      <h3 class="section__sub">Why KLE is different</h3>
+      <ol class="diff-list">
+        <li>
+          <div>
+            <div class="diff-title">We work inside the business, not from a distance.</div>
+            <div class="diff-body">KLE’s coaches embed with the leadership team. They’re in the meetings, in the difficult conversations, and present while the team learns to operate at the next level. It’s the reason our clients say we get more done in 90 days than a traditional consulting engagement gets done in six months.</div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <div class="diff-title">EQ+Execution™, in the same engagement.</div>
+            <div class="diff-body">Most performance problems that show up in the boardroom are actually people problems in disguise. An executive team that has quietly stopped telling the CEO what they really think. A manager who’s technically owning their department but constantly checking upward for validation. A leadership layer whose confidence hasn’t caught up with the size of the business. We work on the people side and the execution side at the same time, which is what makes either side actually shift.</div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <div class="diff-title">Straight talk. On both sides.</div>
+            <div class="diff-body">KLE doesn’t soft-pedal. If we think something isn’t working, we say so. If we think a client isn’t ready, we say that too. The CEOs who’ve worked with us will consistently tell you it was the honesty they couldn’t get anywhere else that made the engagement worth the money.</div>
+          </div>
+        </li>
+      </ol>
+
+      <figure class="media-figure">
+        <img src="./assets/michael-workshop.png" alt="KLE facilitator in a workshop holding YES AND and WHAT IF boards" width="1200" height="900" />
+      </figure>
+
+      <h3 class="section__sub" id="fit">Who we’re a great fit for</h3>
+      <div class="fit-box">
+        <div class="fit-box__item">
+          <span class="fit-box__icon" aria-hidden="true">✓</span>
+          <span>CEOs and founders of growth-stage businesses, broadly $10M–$500M in revenue, who have real growth ambition and know their leadership layer has to level up to hit it.</span>
+        </div>
+        <div class="fit-box__item">
+          <span class="fit-box__icon" aria-hidden="true">✓</span>
+                    <span>Leaders in the middle of something structurally hard: a scaling push, an acquisition, an integration, a leadership team change, a succession plan, or about to walk into one.</span>
+        </div>
+        <div class="fit-box__item">
+          <span class="fit-box__icon" aria-hidden="true">✓</span>
+          <span>CEOs who have quietly realized they’ve become the bottleneck in their own company and can’t see the way out from where they’re standing.</span>
+        </div>
+        <div class="fit-box__item">
+          <span class="fit-box__icon" aria-hidden="true">✓</span>
+          <span>People who have tried a coach or a consultant before, respected the effort, and found it didn’t reach the actual problem.</span>
+        </div>
+        <div class="fit-box__item">
+          <span class="fit-box__icon" aria-hidden="true">✓</span>
+          <span>CEOs who want a partner willing to be in the room with the team, not a workshop or a monthly call.</span>
+        </div>
+      </div>
+
+      <h3 class="section__sub" id="listen">What to listen for</h3>
+      <p class="section__body" style="margin-bottom: 4px;">You don’t need the exact wording. If a CEO you’re talking to sounds like any of the below, there’s a good chance KLE is worth an introduction.</p>
+      <ol class="listen-list">
+        <li>
+          <div>
+            <div class="listen-title">The CEO is still doing work only a CEO can do, plus work anyone else should be doing.</div>
+            <p class="listen-body listen-quote">“I know I shouldn’t be in the middle of this, but if I’m not, it doesn’t get done.” Or: “I don’t know when I last worked on the actual strategy.”</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <div class="listen-title">The leadership team has gone quiet.</div>
+            <p class="listen-body">Everyone nods in the exec meeting. Nobody argues. Then the CEO hears about the pushback later, second-hand. If they describe their leadership meetings as peaceful, that’s worth paying attention to.</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <div class="listen-title">Managers are owning their departments but keep bringing decisions back up.</div>
+            <p class="listen-body listen-quote">“My VPs are good, but they keep coming to me for validation on things they should just be deciding.”</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <div class="listen-title">They’re in the middle of something structurally difficult, or about to walk into one.</div>
+            <p class="listen-body listen-quote">“We just closed the deal, and now I have two ways of selling and two service models under one roof.” Or: “We’re going to double in the next two years and I don’t know if my team is ready.”</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <div class="listen-title">They’ve tried the standard playbook and it didn’t land.</div>
+            <p class="listen-body listen-quote">“I had a coach for a year, nice guy, nothing really changed.” Or: “We hired a big consultancy and ended up with a beautiful deck we haven’t opened since.”</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <div class="listen-title">The CEO is carrying more than they’re showing.</div>
+            <p class="listen-body listen-quote">“I don’t have anyone I can actually talk to about this. Not my board, not my team, not my family.”</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section" id="engagement">
+      <h2 class="section__title">What an engagement with KLE looks like</h2>
+      <table class="engagement-table">
+        <tbody>
+          <tr>
+            <td>Shape</td>
+            <td>Custom to the CEO and the company. Every engagement is scoped after a conversation, not from a menu.</td>
+          </tr>
+          <tr>
+            <td>Typical duration</td>
+            <td>Most engagements are 6–12 months of embedded work. Some are shorter and sharper (90-day integration support). Some become multi-year partnerships.</td>
+          </tr>
+          <tr>
+            <td>What’s included</td>
+            <td>We work directly with the CEO. KLE coaches collaborate at the executive layer. Both sides move at the same time: the leader and the team, which is what makes the shift stick.</td>
+          </tr>
+          <tr>
+            <td>Investment</td>
+            <td>Scoped after the conversation. KLE is a premium engagement and the CEOs we work with know it. What every past client has said is a version of “expensive, and worth every penny.”</td>
+          </tr>
+          <tr>
+            <td>First conversation</td>
+            <td>A peer-level conversation with Amit. No pitch. Most CEOs leave that first call with a clearer view of what’s actually going on in their business, whether or not they work with KLE.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section" id="refer">
+      <h2 class="section__title">How to make the introduction</h2>
+      <p class="section__body">Edit the text below, then copy and send. Short is fine. They already trust you.</p>
+
+      <div class="template-block">
+        <div class="template-card template-card--email">
+          <div class="template-card__head">
+            <span class="template-card__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 6h16v12H4z" />
+                <path d="m4 7 8 6 8-6" />
+              </svg>
+            </span>
+            <div>
+              <div class="template-card__title">Email introduction</div>
+              <div class="template-card__subtitle">Introduce them and CC Amit</div>
+            </div>
+          </div>
+          <div class="template-card__body">
+            <p class="template-block__hint">Tweak the message, then copy. Paste into your email client with Amit CC’d.</p>
+            <textarea id="email-tpl" class="template-textarea" rows="12" spellcheck="true">Hi [Name],
+
+I want to introduce you to Amit Kothari at Kothari Leadership. Based on what you mentioned about [what they said], I think a conversation with him would be worth your time.
+
+Amit works with CEOs of growth-stage companies on the leadership and execution work that most consulting engagements never quite get to. He’s spent 20+ years in and around C-suites, and he’s one of the few people I’ve met who’ll tell you the truth about what he’s seeing. The first call is on him. No pitch, and you’ll come away with a clearer read on your situation either way.
+
+I’ve copied him in. If you’d like to have that conversation, just reply.
+
+More about their work: https://kotharileadership.com
+
+[Your name]</textarea>
+            <button type="button" class="copy-btn" data-copy-from="email-tpl">Copy email</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="template-block">
+        <div class="template-card template-card--whatsapp">
+          <div class="template-card__head">
+            <span class="template-card__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>
+            </span>
+            <div>
+              <div class="template-card__title">WhatsApp / DM</div>
+              <div class="template-card__subtitle">Reply when someone asks for a recommendation</div>
+            </div>
+          </div>
+          <div class="template-card__body">
+            <p class="template-block__hint">For when someone asks if you know anyone who could help. Edit, copy, send.</p>
+            <textarea id="whatsapp-tpl" class="template-textarea" rows="8" spellcheck="true">Hi [Name], you should talk to Amit Kothari. He runs Kothari Leadership and does the executive-team work most consultants never quite reach. Actually has run companies himself, and won’t sell you a deck.
+
+Happy to introduce you. The first call is a peer-level one, no pitch. Let me know if you’d like me to put you two in touch.
+
+https://kotharileadership.com</textarea>
+            <button type="button" class="copy-btn" data-copy-from="whatsapp-tpl">Copy message</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="template-block">
+        <div class="template-card template-card--share">
+          <div class="template-card__head">
+            <span class="template-card__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 13a5 5 0 0 0 7.54.54l1.92-1.92a5 5 0 0 0-7.07-7.07l-1.1 1.1" />
+                <path d="M14 11a5 5 0 0 0-7.54-.54L4.54 12.38a5 5 0 0 0 7.07 7.07l1.1-1.1" />
+              </svg>
+            </span>
+            <div>
+              <div class="template-card__title">Share this page</div>
+              <div class="template-card__subtitle">Send them this playbook before deciding on an intro</div>
+            </div>
+          </div>
+          <div class="template-card__body">
+            <p class="template-block__hint">Use when you want them to read a short overview first. The link below is this page.</p>
+            <textarea id="share-tpl" class="template-textarea" rows="7" spellcheck="true">Hi [Name], based on what you were saying about [what they said], have a look at Amit Kothari’s work at Kothari Leadership. This page is a quick overview of who he’s a fit for and what an engagement looks like. If you want an intro after reading it, let me know.
+
+[PAGE_URL]</textarea>
+            <button type="button" class="copy-btn" data-copy-from="share-tpl">Copy message</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="recognition">
+      <h2 class="section__title">Recognition for your introductions</h2>
+      <p class="section__body">When an introduction turns into a client engagement, we’ll be in touch to talk through how you’d like that recognized. Some of our partners prefer a fee, some prefer a charitable contribution in their name, some prefer to just know they helped a fellow CEO. All of it is welcome.</p>
+    </section>
+
+    <section class="section" id="resources">
+      <figure class="media-figure" style="margin: 0 0 var(--space-6);">
+        <img src="./assets/kle-workshop-team.png" alt="Kothari Leadership team celebrating during a workshop session" width="1200" height="800" />
+      </figure>
+      <h2 class="section__title">Tools and resources</h2>
+      <p class="section__body">Partners only: a free diagnostic because you’re sending people our way.</p>
+      <div class="resource-grid">
+        <article class="resource-card">
+          <span class="resource-card__badge">Free for partners</span>
+          <h3 class="resource-card__title">A leadership diagnostic session with Amit</h3>
+          <p class="resource-card__body">An hour with Amit on whatever’s currently on your mind about your own leadership team. It’s a peer-level conversation, not a coaching session and not a sales pitch. Available to any active KLE partner, once a year.</p>
+          <a class="resource-card__link" href="mailto:amit@kotharileadership.com?subject=Partner%20diagnostic%20session">Email Amit to book →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <h2 class="section__title">FAQ</h2>
+      <div class="accordion">
+        <div class="accordion-item" id="faq-1">
+          <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="faq-1-panel" onclick="toggleAcc('faq-1')">
+            Who does Amit not work with?
+            <svg class="chevron" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
+          </button>
+          <div class="accordion-content" id="faq-1-panel">Companies that aren’t growing and don’t plan to. CEOs who want validation more than they want a real read on their business. Anyone looking for a workshop or a monthly call rather than a partner in the actual work. KLE isn’t cheap and isn’t light-touch; if either of those things is what someone needs right now, Amit will say so on the first call.</div>
+        </div>
+        <div class="accordion-item" id="faq-2">
+          <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="faq-2-panel" onclick="toggleAcc('faq-2')">
+            What happens after I introduce someone?
+            <svg class="chevron" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
+          </button>
+          <div class="accordion-content" id="faq-2-panel">Amit reaches out to schedule a peer-level conversation, usually within a week. It’s not a sales call; the goal is for the CEO to leave with a clearer picture of their own situation, and to work out from there whether a KLE engagement makes sense. Either way, KLE takes it from there. You don’t need to do anything further unless you want to.</div>
+        </div>
+        <div class="accordion-item" id="faq-3">
+          <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="faq-3-panel" onclick="toggleAcc('faq-3')">
+            What does KLE actually cost?
+            <svg class="chevron" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
+          </button>
+          <div class="accordion-content" id="faq-3-panel">It depends on the scope, the depth of the engagement, and the company. Most engagements run over 6–12 months. Amit will discuss the investment on the second or third call, once the shape of the work is clear. It’s a premium engagement; the CEOs who’ve worked with him will tell you it’s expensive, and that they’d do it again.</div>
+        </div>
+        <div class="accordion-item" id="faq-4">
+          <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="faq-4-panel" onclick="toggleAcc('faq-4')">
+            How is this different from an executive coach?
+            <svg class="chevron" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
+          </button>
+          <div class="accordion-content" id="faq-4-panel">An executive coach usually works with the individual leader. KLE works with the leader, their team, and the business at the same time, which is why the shift tends to hold after the engagement ends. There’s also the practitioner question: most coaches have never actually run a company, and Amit has. If someone in your network is being served well by a traditional coach, we’re not the answer. If they’ve tried that route and it didn’t reach the actual problem, we probably are.</div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__tagline">Better Leadership. Better Decisions. Better Results.</p>
+      <div class="footer__links">
+        <a href="mailto:amit@kotharileadership.com">amit@kotharileadership.com</a>
+        <a href="https://kotharileadership.com" target="_blank" rel="noopener noreferrer">kotharileadership.com</a>
+      </div>
+      <p class="footer__copy">© 2026 Kothari Leadership Enterprises. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var share = document.getElementById("share-tpl");
+      if (share) {
+        share.value = share.value.replace("[PAGE_URL]", window.location.href);
+      }
+
+      var videoHost = document.getElementById("partner-video");
+      if (videoHost && videoHost.dataset.src) {
+        var iframe = document.createElement("iframe");
+        iframe.src = videoHost.dataset.src;
+        iframe.title = "Kothari Leadership partner overview";
+        iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+        iframe.allowFullscreen = true;
+        iframe.setAttribute("playsinline", "");
+        videoHost.appendChild(iframe);
+        videoHost.classList.add("is-ready");
+      }
+
+      function flashCopied(el) {
+        var original = el.textContent;
+        el.classList.add("copied");
+        el.textContent = "Copied";
+        window.setTimeout(function () {
+          el.classList.remove("copied");
+          el.textContent = original;
+        }, 1600);
+      }
+
+      function copyText(text, el) {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          return navigator.clipboard.writeText(text).then(function () {
+            flashCopied(el);
+          });
+        }
+        var area = document.createElement("textarea");
+        area.value = text;
+        area.setAttribute("readonly", "");
+        area.style.position = "absolute";
+        area.style.left = "-9999px";
+        document.body.appendChild(area);
+        area.select();
+        document.execCommand("copy");
+        document.body.removeChild(area);
+        flashCopied(el);
+        return Promise.resolve();
+      }
+
+      document.querySelectorAll(".copy-inline").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          copyText(btn.getAttribute("data-copy") || "", btn);
+        });
+      });
+
+      document.querySelectorAll(".copy-btn[data-copy-from]").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var source = document.getElementById(btn.getAttribute("data-copy-from"));
+          if (!source) return;
+          copyText(source.value, btn);
+        });
+      });
+
+      window.toggleAcc = function (id) {
+        var item = document.getElementById(id);
+        if (!item) return;
+        var open = item.classList.toggle("open");
+        var trigger = item.querySelector(".accordion-trigger");
+        if (trigger) trigger.setAttribute("aria-expanded", open ? "true" : "false");
+      };
+    })();
+  </script>
+</body>
+</html>
