@@ -1,0 +1,27 @@
+{
+  "name": "ge-sales-drive",
+  "private": true,
+  "type": "module",
+  "description": "Growth Experts internal sales drive dashboard. Standalone Railway project.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "node server.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.10",
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.0",
+    "framer-motion": "^13.1.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "serve": "14.2.4",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.2.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18"
+  }
+}
